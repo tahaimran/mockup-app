@@ -25,6 +25,8 @@ export const Login = () => {
                         <input type='password' className="password"></input>
                     </label>
                 </form>
+                <Link className="SignLink" to="/home"><p >Homeeeee</p></Link>
+
             </div>
         </div>
     )

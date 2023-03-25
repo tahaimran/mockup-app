@@ -4,27 +4,39 @@
 
 body {
     text-align: center;
-    
 }
 .Search {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
+    background: none;
+    top: 22px;
+    position: relative;
+    
 }
+
+.search-icon {
+    background: transparent;
+    color: orange;
+    right: 18.5rem;
+    position: absolute;
+    bottom: 0.98rem;
+}
+
 
 .inputfield {
     padding: 20px;
     place-items: center;
-    border: 2px solid black;
-    border-radius: 100px;
+    border-radius: 10px;
     width: 22rem;
     height: 0px;
     text-align: center;
     background-color: rgb(255 255 255);
-    border-style: none;
+    border: none;
     margin-top: 3px;
     margin-bottom: 3px;
+    outline: none;
 }
 
 ::placeholder {

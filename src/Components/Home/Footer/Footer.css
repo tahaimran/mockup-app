@@ -1,0 +1,13 @@
+.main-footer {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    margin: 0px -5px;
+    border-radius: 5px;
+}
+
+.Icon {
+    background: transparent;
+}

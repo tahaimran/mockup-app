@@ -1,9 +1,70 @@
 .mainPage{
-    background-color: rgba(255, 166, 0, 0.801);
- 
+    height: 100%;
+    width: 100%;
 }
 .topBar{
+    background-color: orange;
     display: flex;
     justify-content: space-between;
+    padding: 5px;
+}
+.topBar div{
+    display: inline-flex;
+    background:transparent;
+    justify-content: space-between;
+    color: white;
+}
+.regButton{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
     background-color: orange;
+    color: white;
+    padding: 10px;
+}
+.regButton:hover{
+    cursor: pointer;
+}
+.regButton p{
+    background: transparent;
+}
+.chefIcon{
+    background-color: transparent;
+}
+.bookFish{
+    margin: 150px 0 150px 0px;
+}
+.bookFish img{
+    width: 200px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.bottom .welcomeText h2{
+    font-size: 40px;
+}
+.cookText{
+    color: orange;
+}
+
+.bottom .headlineText{
+    color: grey;
+    margin-top: 80px;
+}
+.RegButtonSection{
+    margin-top: 80px;
+}
+
+.SignLink{
+    text-decoration: none;
+    color:grey;
+}
+.SignLink:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.7s;
 }

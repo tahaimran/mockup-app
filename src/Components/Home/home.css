@@ -10,11 +10,11 @@ body {
 .headingdiv1 {
     background-color: orange;
     padding: 2px;
-    border-radius: 0px 0px 85px 85px;
+    border-radius: 0px 0px 17px 17px;
 }
 
 .heading1 {
-    background-color: orange;
+    background: transparent;
     margin-top: 67px;
     margin-bottom: 21px;
     display: flex;

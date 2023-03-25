@@ -7,51 +7,48 @@ export const Recipe = () => {
         <div className="mainDiv">
             <div className="grid-container">
                 <div className="grid-item">
+                    <div className='grid-item-internal'>
                     <p>Briyani</p>
                     <FiHeart className='icon'/>
-                    <div><img src="" alt="" /></div>
-                    <div className='addition'><button>+</button></div>
+                    </div>
+                    <div className='imgRec'><img src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01-750x750.jpg" alt="Briyani" /></div>
                 </div>
 
                 <div className="grid-item">
-                    <p>Pulao</p>
+                    <div className='grid-item-internal'>
+                    <p>Briyani</p>
                     <FiHeart className='icon'/>
-                    <div><img src="" alt="" /></div>
-                    <div className='addition2'><button>+</button></div>
+                    </div>
+                    <div className='imgRec'><img src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01-750x750.jpg" alt="Briyani" /></div>
                 </div>
-
                 <div className="grid-item">
-                    <p>Karahi</p>
+                    <div className='grid-item-internal'>
+                    <p>Briyani</p>
                     <FiHeart className='icon'/>
-                    <div><img src="" alt="" /></div>
-                    <div className='addition3'><button>+</button></div>
+                    </div>
+                    <div className='imgRec'><img src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01-750x750.jpg" alt="Briyani" /></div>
                 </div>
-
                 <div className="grid-item">
-                    <p>Cheese</p>
-                    <p>Burger</p>
+                    <div className='grid-item-internal'>
+                    <p>Briyani</p>
                     <FiHeart className='icon'/>
-                    <div><img src="" alt="" /></div>
-                    <div className='addition4'><button>+</button></div>
+                    </div>
+                    <div className='imgRec'><img src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01-750x750.jpg" alt="Briyani" /></div>
                 </div>
-
                 <div className="grid-item">
-                    <p>Beef</p>
-                    <p>Burger</p>
+                    <div className='grid-item-internal'>
+                    <p>Briyani</p>
                     <FiHeart className='icon'/>
-                    <div><img src="" alt="" /></div>
-                    <div className='addition5'><button>+</button></div>
+                    </div>
+                    <div className='imgRec'><img src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01-750x750.jpg" alt="Briyani" /></div>
                 </div>
-
                 <div className="grid-item">
-                    <p>Milk</p>
-                    <p>Shake</p>
+                    <div className='grid-item-internal'>
+                    <p>Briyani</p>
                     <FiHeart className='icon'/>
-                    <div><img src="" alt="" /></div>
-                    <div className='addition6'><button>+</button></div>
-                    
+                    </div>
+                    <div className='imgRec'><img src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01-750x750.jpg" alt="Briyani" /></div>
                 </div>
-                
             </div>
         </div>
     )
