@@ -1,0 +1,32 @@
+*{
+    background-color: rgb(245 245 245);
+}
+
+body {
+    text-align: center;
+    
+}
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.inputfield {
+    padding: 20px;
+    place-items: center;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 22rem;
+    height: 0px;
+    text-align: center;
+    background-color: rgb(255 255 255);
+    border-style: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+::placeholder {
+    font-weight: bold;
+}
