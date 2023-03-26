@@ -1,0 +1,163 @@
+.main-div {
+    background-color: orange;
+}
+
+.left-icon {
+    display: flex;
+    padding: 20px;
+    color: white;
+    width: 20px;
+}
+.header h2 {
+    color: rgb(87 42 25);
+    margin-top: -2.5rem;
+}
+
+img {
+    height: 96px;
+    width: 96px;
+    margin-top: 3rem;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.profile-div h3 {
+    color: white;
+}
+
+.edit-div {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.edit-icon {
+    padding: 20px;
+    border-radius: 40%;
+    background-color: green;
+    color: white;
+    margin-left: 20px;
+}
+
+.edit-div p{
+    color: white;
+    position: relative;
+    right: 90px;
+}
+
+.general-div {
+    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+}
+
+.dark-mode-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.dark-icon {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.Mode {
+    color: white;
+}
+
+.saved-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.globe-icon {
+    background-color: #ffc138;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+p {
+    color: white;
+}
+
+.gray {
+    color: gray;
+}
+
+.about-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.question-icon {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.terms-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.ex-icon {
+    background-color: #005cd6;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.priv-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.lock-icon {
+    background-color: #ff1616;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.rate-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.star-icon {
+    background-color: #8c52ff;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.share-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.share-icon {
+    background-color: #ff66c4;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
