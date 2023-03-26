@@ -30,7 +30,7 @@ export const Profile = () => {
 
             <div className='edit-div'>
                 <FiEdit2 className='edit-icon'/>
-                <p>Edit Profile</p>
+                <p className='para'>Edit Profile</p>
                 <AiOutlineRight className='right-icon'/>
             </div>
 
@@ -66,37 +66,37 @@ export const Profile = () => {
 
             <div className='saved-div'>
                 <BsGlobe className='globe-icon'/>
-                <p>Saved</p>
+                <p className='para'>Saved</p>
                 <AiOutlineRight/>
             </div>
             
             <div className='about-div'>
                 <AiOutlineQuestionCircle className='question-icon'/>
-                <p>About</p>
+                <p className='para'>About</p>
                 <AiOutlineRight/>
             </div>
             
             <div className='terms-div'>
                 <AiOutlineExclamation className='ex-icon'/>
-                <p>Terms & Conditions</p>
+                <p className='para'>Terms & Conditions</p>
                 <AiOutlineRight/>
             </div>
 
             <div className='priv-div'>
                 <AiOutlineLock className='lock-icon'/>
-                <p>Privacy Policy</p>
+                <p className='para'>Privacy Policy</p>
                 <AiOutlineRight/>
             </div>
 
             <div className='rate-div'>
                 <AiOutlineStar className='star-icon'/>
-                <p>Rate this App</p>
+                <p className='para'>Rate this App</p>
                 <AiOutlineRight/>
             </div>
 
             <div className='share-div'>
                 <AiOutlineShareAlt className='share-icon'/>
-                <p>Share this App</p>
+                <p className='para'>Share this App</p>
                 <AiOutlineRight/>
             </div>
         </div>
