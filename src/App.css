@@ -4,6 +4,9 @@
   position: absolute;
   left: 35%;
   background-color: none;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  font-family: 'Roboto', sans-serif;
+
 }
 .App *{
   background: none;

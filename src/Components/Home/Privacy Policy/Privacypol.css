@@ -1,0 +1,39 @@
+.privPol{
+    width: 100%;
+    height: 100%;
+}
+.privText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.privText h2 {
+    color: #572A19;
+    font-size: 50px;
+}
+.privText h4 {
+    color: #572A19;
+    font-size: 20px;
+
+}
+.polText{
+    height: 480px;
+    overflow-y: scroll;
+}
+.privText p {
+    color: gray;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.logoImg{
+    background-color: orange;
+}
+.logoImg img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 200px;
+
+}

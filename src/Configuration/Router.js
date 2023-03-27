@@ -5,6 +5,7 @@ import { Login } from "../Components/Login/login";
 import { Registration } from "../Components/Registrations/registration";
 import { IngMaking }  from "../Components/Home/IngMaking/IngMaking"
 import { Profile } from "../Components/Profile/Profile";
+import { Privacypol } from "../Components/Home/Privacy Policy/Privacypol";
 
 function AppRouter() {
     return(
@@ -15,6 +16,7 @@ function AppRouter() {
                 <Route path="/home" element={<Home/>}/>
                 <Route path="/ing" element={<IngMaking/>}/>
                 <Route path="/profile" element={<Profile/>}/>
+                <Route path= "/profile/privpol" element={<Privacypol/>}/>
             </Routes>
         </Router>
     )
