@@ -44,6 +44,7 @@ button {
 .imgRec img{
     width: 120px;
     height: 120px;
+    object-fit: contain;
     border-radius: 30px;
     padding: 20px;
     background-color: orange;

@@ -14,7 +14,7 @@ function AppRouter() {
                 <Route path="/" element={<Registration/>}></Route>
                 <Route path='/login' element={<Login/>}/>
                 <Route path="/home" element={<Home/>}/>
-                <Route path="/ing" element={<IngMaking/>}/>
+                <Route path="/ing/:id" element={<IngMaking/>}/>
                 <Route path="/profile" element={<Profile/>}/>
                 <Route path= "/profile/privpol" element={<Privacypol/>}/>
             </Routes>
